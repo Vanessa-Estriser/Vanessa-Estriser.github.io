@@ -6,9 +6,9 @@ html, body { margin: 5px;}
     text-align: center;
     border-style: dashed;
     background-size: 100% 100%;
-    background-size: cover;
+    background-size:cover;
 }
-.título{
+.titulo{
     color: white;
     font-family: 'Courier New', Courier, monospace 110px;
     width: auto;
@@ -17,7 +17,7 @@ html, body { margin: 5px;}
     text-shadow: 2px 2px 2px 2px blue;
     font-size: 90px;
 }
-.subtítulo{
+.subtitulo{
     color: rgb(12, 11, 11);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 10%;
@@ -84,7 +84,7 @@ html, body { margin: 5px;}
     font-size: large ;
 }
 .cha {
-    width: 20%;
+    width: 30%;
     padding-right: 4%;
     float: right;
     border-left: solid   rgb(241, 246, 248) 40px;
@@ -103,7 +103,8 @@ html, body { margin: 5px;}
 }
 h2, h3 {
     text-align: center;
-    font: 30px Arial;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
     color: #0E4AF0 ;
 }
 h4 {
@@ -137,11 +138,12 @@ section {
     padding: 10px;
     float:left;
     border-style:dashed 50px white;
+    background-color:#A5B1F5;
 }
 .imgeu {
     width: 120px;
     padding: 0px;
-    border: solid rgb(253, 253, 253); 
+    border: solid 15px #A5B1F5; 
     float: left;        
 }
 @media all and (max-width: 768px) {
@@ -154,6 +156,6 @@ section {
         text-align: center;
     }
     #imagem_fundo {
-        transform: translateX();
+        transform: translateX(auto);
     }
 }
