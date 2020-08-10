@@ -101,9 +101,6 @@ html, body { margin: 5px;}
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large ;  
 }
-.videos {
-    width: auto;
-}
 h2, h3 {
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -123,7 +120,7 @@ h5 {
 }
 h6 {
     text-align: center;
-    font: 10px Arial;
+    font: 30px Arial;
     color: rgb(16, 17, 17);
     margin-bottom: 0%;
 }
